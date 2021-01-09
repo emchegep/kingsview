@@ -1,0 +1,57 @@
+body{  
+    padding-top: 50px;
+    font-family: sans-serif;
+    background-color: #fafafa;
+}
+/*navigation bar*/
+.navbar-nav li{
+    padding: 0 20px 0 0;
+}
+.navbar-nav li a{
+    color: #fff;
+    font-size: 17px;
+}
+.navbar-nav li a:hover{
+    color: #004;
+}
+.house-img{
+    height: 240px !important;
+}
+.house-img:hover{
+    box-shadow: 0px 10px 50px #a0efd1;
+}
+
+/* footer starts here */
+.footer{
+background-color:#9fc6ec;
+position: relative;
+bottom: 0px;
+transform: translateY(0px);
+
+}
+.social-icon{
+    padding:6px;
+    margin: 0 15px 15px 0;
+    border-radius: 5px;
+    color: white;
+}
+.social-icon:hover{
+    transition: 0.5s;
+    transform: scale(1.8);
+}
+.fb{
+    color:#0e6fee;
+    background-color: white;
+}
+.tt{
+    color:white;
+    background-color: #0e6fee;
+}
+.ln{
+    color:white;;
+    background-color:#0e6fee;
+}
+.tb{
+    color:red;
+    background-color: white;
+}

@@ -1,0 +1,111 @@
+body{
+    margin:0;
+    padding-top:70px;
+    font-family:sans-serif;
+    background-color: #C8E6C9;
+}
+.navbar-nav li{
+    padding: 0 20px 0 0;
+}
+nav li a{
+    color: #fff;
+    font-size: 17px;
+}
+nav li a:hover{
+    color: #004;
+}
+.msg{
+width: 40%;
+position: fixed;
+bottom: 0;
+right: 0;
+z-index: 1;
+padding: 8px;
+margin-right: 20px;
+background-color: lightgreen;
+color: #0009;
+font-size: 20px;
+    }
+.modal-content{
+    padding: 30px 20px;
+    background-color: #E3F2FD;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.main-section{
+    margin: 0;
+    margin-top: 130px;
+}
+.textbox{
+    position: relative;
+}
+.textbox input{
+padding-left: 40px;
+height: 40px;
+}
+.textbox i{
+position: absolute;
+left:0;
+top: 0;
+padding: 9px;
+color: darkgray;
+height: 40px;
+width: 40px;
+
+}
+.textbox input:focus{
+    border-color: dodgerblue;
+}
+.textbox input:focus + i{
+    color: #fff;
+    background-color: dodgerblue;
+}
+#create{
+    color: #0006;
+    padding: 5px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.social-media{
+    background-color: skyblue;
+    text-align: center;
+}
+.copyright{
+    padding: 20px 0;
+    text-align: center;
+}
+.footet-logo{
+    padding: 30px 0 30px 0;
+}
+.copyright p{
+    color:#0009;
+    text-shadow: 2px 4px 3px #fefefe;
+    font-size: 18px;
+
+}
+.social-icon{
+    padding:4px;
+    margin: 14px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+}
+.social-icon:hover{
+    transition: 0.5s;
+    transform: scale(1.8);
+}
+.fb{
+    color:#0e6fee;
+    background-color: #fafafa;
+}
+.tt{
+    color:white;
+    background-color: #0e6fee;
+}
+.wt{
+    color:white;;
+    background-color:#0e6fee;
+}
+.tb{
+    color:red;
+    background-color: white;
+}
